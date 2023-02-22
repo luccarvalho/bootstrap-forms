@@ -22,5 +22,81 @@
       defer
     ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container col-11 col-md-9" id="form-container">
+      <div class="row gx-5">
+        <div class="col-md-6">
+          <h2>Realize o seu cadastro</h2>
+          <form>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Digite o seu nome"
+              />
+              <label for="name" class="form-label">Digite o seu nome</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="lastname"
+                name="lastname"
+                placeholder="Digite o seu sobrenome"
+              />
+              <label for="name" class="form-label"
+                >Digite o seu sobrenome</label
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Digite o seu e-mail"
+              />
+              <label for="name" class="form-label">Digite o seu e-mail</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                name="password"
+                placeholder="Digite a sua senha"
+              />
+              <label for="name" class="form-label">Digite a sua senha</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="confirmpassword"
+                name="confirmpassword"
+                placeholder="Confirme sua senha"
+              />
+              <label for="name" class="form-label">Confirme sua senha</label>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <img
+                src="img/hello.svg"
+                alt="Tela de Registro"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-12" id="link-container">
+              <a href="login.html">Eu já tenho uma conta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
